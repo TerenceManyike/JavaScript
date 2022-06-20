@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Profile icon -->
+    <link rel="shortcut icon" href="user.png" type="image/png">
+    <title>Manyike San Terence</title>
+</head>
+<body>
+    <!--Countdown timer-->
+    <!-- Modal pop up 1 -->
+    <div class="modal fade" id="Countdown_timer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+                <p class="modal-title display-5">COUNTDOWN TIMER</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button><br>
+            </div>
+            <div class="modal-body" style="text-align: center;"><!--Modal countdown timer body start--> 
+                <div class="row">
+                    <div class="col-12">
+                        <p class="display-6">To My Birthday</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <h5>DAYS</h5>
+                        <p id="days" class="display-5">0</p>
+                    </div>
+                    <div class="col-3">
+                        <h5>HOURS</h5>
+                        <p id="hours" class="display-5">0</p>
+                    </div>
+                    <div class="col-3">
+                        <h5>MINUTES</h5>
+                        <p id="minutes" class="display-5">0</p>
+                    </div>
+                    <div class="col-3">
+                        <h5>SECONDS</h5>
+                        <p id="seconds" class="display-5">0</p>
+                    </div>
+                </div>
+            </div><!--Modal countdown timer body end-->
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+    </div> <!--Modal pop-up 1 end-->
+    <!--Quiz app-->
+    <!-- Modal pop up 2 -->
+    <div class="modal fade" id="Countdown_timer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+                <p class="modal-title display-5">QUIZ APPLICATION</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button><br>
+            </div>
+            <div class="modal-body" style="text-align: center;"><!--Modal quiz app body start--> 
+                <div class="row">
+                    <div class="col-12">
+                        <p class="display-6">Choose the correct answer</p>
+                    </div>
+                </div>
+                <div class="row"></div>
+            </div><!--Modal quiz app body end-->
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+    </div> <!--Modal pop-up 2 end-->
+    <div class="container-fluid">
+        <div class="section">
+            <div class="content">
+                <div class="row justify-content-center">
+                    <div id="about" class="col-6 text-center about">
+                        <p class="display-4 heading">JavaScript Projects</p>
+                        <p>Hi! Welcome to my projects. My name is San Terence Manyike and I’m a web developer based in Russia. In 2020, I decided to change my life and started learning to code and to make websites and web applications.</p>
+                    </div>
+                </div>
+                <div class="row cards text-center justify-content-center" style='display:none;'>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card" data-bs-toggle="modal" data-bs-target="#Countdown_timer">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">Countdown Timer</h5>
+                                <p class="card-text">Countdown Timer is just the countdown taken out of the usual online-stopwatch.com stopwatch and countdown gadget.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">Quiz Application</h5>
+                                <p class="card-text">Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">Recipe Application</h5>
+                                <p class="card-text">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cards justify-content-center" style='display:none;'>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">Notes Application</h5>
+                                <p class="card-text">JavaScript is a scripting language used to create and control dynamic website content, i.e. anything that moves, refreshes, or otherwise changes on your screen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">Notes Application</h5>
+                                <p class="card-text">jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">PHP</h5>
+                                <p class="card-text">PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP is efficient alternative to competitors such as Microsoft's ASP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cards justify-content-center" style='display:none;'>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">Notes Application</h5>
+                                <p class="card-text">JavaScript is a scripting language used to create and control dynamic website content, i.e. anything that moves, refreshes, or otherwise changes on your screen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">JQUERY</h5>
+                                <p class="card-text">jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="card about-card">
+                            <img class="about-img" src="javascript.png" alt="contacts">
+                            <div class="card-body">
+                                <h5 class="card-title heading">PHP</h5>
+                                <p class="card-text">PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP is efficient alternative to competitors such as Microsoft's ASP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row enquiry">
+                <div id="contacts" class="col-md-6 contacts">
+                    <div class="footer-heading">
+                        <p class="display-4">Location</p>
+                    </div>
+                    <p>At my core is a collection of design and development solutions that represent everything your business needs to compete in the modern marketplace.</p>
+                    <Address>Nizhny Novgorod(Russia)<br> Prospekt Gagarina 23<br>Nizhny Novgorod Oblast<br>603022 </Address>
+                    <div class="row">
+                        <div class="col-3">
+                        <a href="#"><img class="pngs" src="007-facebook.png" alt="Facebook"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#"><img class="pngs" src="008-twitter.png" alt="Twitter"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#"><img class="pngs" src="009-instagram.png" alt="instagram"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#"><img class="pngs" src="linked.png" alt="linked in"></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6 chatt">
+                    <div class="footer-heading">
+                        <p class="display-4">Contact me</p>
+                    </div>
+                    <form onsubmit="return form_validate()" action="index.php" method="POST">
+                        <div class="mb-3">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Message subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" name="message" placeholder="Enter Your Request" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info">Send message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row copyrights">
+                <div class="col-12 align-self-center text-center">
+                    &copy San Terence Manyike
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
